@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+    ></script>
+    <link
+            rel="stylesheet"
+            href="https://kendo.cdn.telerik.com/2022.1.119/styles/kendo.common.min.css"
+    />
+    <link
+            rel="stylesheet"
+            href="https://kendo.cdn.telerik.com/2022.1.119/styles/kendo.default.min.css"
+    />
+    <link
+            rel="stylesheet"
+            href="https://kendo.cdn.telerik.com/2022.1.119/styles/kendo.default.mobile.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2022.1.119/js/kendo.all.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2022.1.119/js/jquery.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2022.1.119/js/kendo.all.min.js"></script>
+
+    <script src="script.js"></script>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<form class="k-form1">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+
+
+<div id="form"></div>
+<script>
+    $('label').nameOfForm();
+</script>
+</body>
+</html>
